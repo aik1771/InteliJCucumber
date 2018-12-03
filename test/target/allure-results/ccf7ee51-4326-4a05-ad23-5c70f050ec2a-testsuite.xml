@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1543798754477" stop="1543798754652" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify invalid email on registration | test.com |</name>
+    <title>Verify invalid email on registration | test.com |</title>
+    <test-cases>
+        <test-case start="1543798754504" stop="1543798754507" status="passed">
+            <name>Given User is on the Threely register page</name>
+            <title>Given User is on the Threely register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alberts-MBP.fios-router.home"/>
+                <label name="thread" value="6378@Alberts-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543798754641" stop="1543798754646" status="pending">
+            <name>When I enter name as "testuser" email as test.com password as "test12345"</name>
+            <title>When I enter name as "testuser" email as test.com password as "test12345"</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alberts-MBP.fios-router.home"/>
+                <label name="thread" value="6378@Alberts-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543798754648" stop="1543798754648" status="pending">
+            <name>And I click 'submit' button</name>
+            <title>And I click 'submit' button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alberts-MBP.fios-router.home"/>
+                <label name="thread" value="6378@Alberts-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543798754649" stop="1543798754649" status="pending">
+            <name>Then I verify invalid email address</name>
+            <title>Then I verify invalid email address</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alberts-MBP.fios-router.home"/>
+                <label name="thread" value="6378@Alberts-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543798754650" stop="1543798754650" status="pending">
+            <name>| test.com |</name>
+            <title>| test.com |</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Alberts-MBP.fios-router.home"/>
+                <label name="thread" value="6378@Alberts-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify invalid email on registration | test.com |"/>
+        <label name="feature" value="Heroku Search Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
