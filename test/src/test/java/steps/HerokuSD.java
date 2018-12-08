@@ -22,6 +22,8 @@ public class HerokuSD extends start.driver.DriverWrapper{
     @When("^I enter name as (.+) email as <email> password as (.+)$")
     public void enterCred(String name, String email, String password) throws Throwable{
 
+
+        
         locator.clickOnRegistrationName();
         locator.setOnRegistrationName(name);
         locator.clickOnRegistrationEmail();
